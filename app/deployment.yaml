@@ -15,5 +15,5 @@ spec:
         app: httpd
     spec:
       containers:
-      - image: registry.access.redhat.com/ubi9/httpd-24
+      - image: quay.io/note_minamoto/helloweb:v1.0
         name: httpd-24
