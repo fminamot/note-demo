@@ -1,0 +1,2 @@
+FROM ubi9/httpd-24
+COPY data /var/www/html
